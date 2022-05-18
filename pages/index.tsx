@@ -15,14 +15,12 @@ import {
     //theme
     defaultLightTheme,
     //utils
-    FetchModuleData,
-    Bookmaker
+    FetchModuleData
 } from "@ssg-b2b/basketball-preplay";
 import type {ModuleConfig, ModuleData} from "@ssg-b2b/basketball-preplay";
 
 const SSG_MODULE_CONFIG: ModuleConfig = {
-    clientId: "pickswise", //Replace with your unique client id,
-    bookmakers: [Bookmaker.Bet365, Bookmaker.Caesars, Bookmaker.BetMGM, Bookmaker.SkyBet]
+    clientId: "pickswise" //Replace with your unique client id,
 };
 
 const Home: NextPage<{
